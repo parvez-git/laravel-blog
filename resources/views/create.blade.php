@@ -93,6 +93,8 @@
 
       slugInput.val(theSlug);
     });
-    var simplemde = new SimpleMDE({ element: $("#body")[0] });
+
+    $('#body').summernote();
+
   </script>
 @endsection
